@@ -1,0 +1,14 @@
+<div class="item">
+  <div class="monImage">
+      <app-img  [fileName]="article.fileName"></app-img>
+  </div>
+  <h1>{{article.name}} - {{article.trade}}</h1>
+  <h2>{{article.category}}</h2>
+  <p>{{article.description}}</p>
+  <div class="monPrix">
+      <app-price [price]=article.price ></app-price>
+  </div>
+  <div (click)="removeItem(article)" class="deleteButton">Delete</div>
+  
+</div>
+

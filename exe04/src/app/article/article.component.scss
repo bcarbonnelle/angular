@@ -1,0 +1,25 @@
+.item{
+    width:750px;
+    background-color: lightgray; 
+   
+
+}
+.monImage{
+    width:200px;
+    max-height: 220px;
+    overflow: hidden;
+    margin : 8px;
+    float: left;
+    
+}
+.deleteButton{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 2px;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 500px;
+}

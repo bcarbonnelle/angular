@@ -1,0 +1,10 @@
+<h1>
+  Le catalogues des 3 petits suisses
+</h1>
+<ul>
+  <li>
+      <app-article *ngFor="let article of catalogue" [article]="article" (onDeleteArticle)="deleteArticle($event)"></app-article>
+  </li>
+</ul>
+
+

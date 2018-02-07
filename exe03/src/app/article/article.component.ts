@@ -1,5 +1,6 @@
 import { Component, OnInit, HostBinding, Input } from '@angular/core';
 import { Article } from './article.model';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-article',
@@ -18,6 +19,7 @@ export class ArticleComponent implements OnInit {
   }
   voteUp() {
     this.article.voteUp();
+    
     return false;
   }
   voteDown() {
