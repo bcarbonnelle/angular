@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import"./assets/semantic.min.css";
+
+body{
+  width:800px;
+  margin: 0 auto;
+}
+.votes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: bisque;
+  padding: 1em 0;
+  border-radius: 5px;
+}
+.ui.grid.posts{
+  margin-top:2em;
+}
+.header{
+  display: block;
+  font-size: 2.5em;
+}
+voters{
+  display: block;
+  list-style: none;
+
+}
+li.item::before{
+  display: none;
+}
